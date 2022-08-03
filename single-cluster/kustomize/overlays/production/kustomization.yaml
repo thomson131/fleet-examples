@@ -1,0 +1,12 @@
+namePrefix: production-
+commonLabels:
+  variant: production
+  org: Nunya Business Ltd
+commonAnnotations:
+  note: Hello, I am the production guestbook!
+bases:
+- ../../base
+patchesStrategicMerge:
+- redis-slave-deployment.yaml
+
+

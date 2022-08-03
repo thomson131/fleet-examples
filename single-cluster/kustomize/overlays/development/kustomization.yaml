@@ -1,3 +1,9 @@
+namePrefix: development-
+commonLabels:
+  variant: development
+  org: NunyaBusinessLtd
+commonAnnotations:
+  note: Hello, I am the development guestbook!
 bases:
 - ../../base
 patches:

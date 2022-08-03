@@ -1,7 +1,7 @@
 namePrefix: production-
 commonLabels:
   variant: production
-  org: Nunya Business Ltd
+  org: NunyaBusinessLtd
 commonAnnotations:
   note: Hello, I am the production guestbook!
 bases:

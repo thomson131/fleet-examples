@@ -6,6 +6,8 @@ commonAnnotations:
   note: Hello, I am the development guestbook!
 bases:
 - ../../base
-patches:
+resources:
+- ../../base
+patchesStrategicMerge:
 - redis-slave-deployment.yaml
 - redis-slave-service.yaml

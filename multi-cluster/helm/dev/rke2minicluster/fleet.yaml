@@ -1,0 +1,11 @@
+namespace: fleet-default
+targetCustomizations:
+- name: rke2minicluster
+  helm:
+    values:
+      replication: false
+  clusterSelector:
+    matchLabels:
+      env: dev
+      site: lab
+      clna: rke2minicluster

@@ -1,10 +1,2 @@
 namespace: fleet-default
-targetCustomizations:
-- name: dev
-  clusterSelector:
-    matchLabels:
-      env: dev
-- name: test
-  clusterSelector:
-    matchLabels:
-      env: test
+
